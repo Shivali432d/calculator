@@ -1,0 +1,108 @@
+.navbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+  }
+  
+  .nav-link {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .navbar a:hover {
+    background-color: blue;
+  }
+  
+  .active {
+    background-color: blue;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  .billhead{
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  body{
+      margin-left: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      float: left ;
+      width: 100%;
+  }
+
+  f-left{
+      float: left;
+  }
+
+  .boxes{
+      margin-bottom: 20px;
+      align-items: center;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+  }
+
+  .box1{
+    width: 120px;
+    color: blue;
+    height: 85px;
+    border: 1px solid grey;
+    text-decoration: underline;
+    float: left;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+  }
+
+  
+  .checkbox{
+    background-color: green;
+
+  }
+
+  .main input:checked ~ .checkbox{
+    background-color: green;
+  }
+  .col-head{
+      text-align: center;
+      color: blue;
+      margin-bottom: 20px;
+      font-size: 20px;
+  }
+  td {
+    padding: 05px;
+
+  }
+  tr:nth-child {
+    border-bottom: solid 2px green;
+   }
+   
+   .remark{
+       margin-top: 20px;
+   }
+
+.bill-check{
+    color: green;
+}
+
+.col-head{
+    color: blue;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+  }
+bill-cycle{
+    margin: 10 20 10 20;
+}
